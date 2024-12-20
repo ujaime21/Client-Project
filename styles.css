@@ -51,9 +51,8 @@ header nav a:hover {
 
 .mainimg img {
     width: 100%; /* Makes the image stretch to the width of its container */
-    height: 12rem; /* Maintains the image's aspect ratio */
+    height: 10rem; /* Maintains the image's aspect ratio */
     display: block; /* Eliminates any space below the image */
-    margin-top: -5rem;
 }
 
 
@@ -694,6 +693,10 @@ ul li {
         z-index: 10; /* Ensures it stays above other elements */
         height: 3rem;
         padding: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 1rem;
     }
 
     header img {
