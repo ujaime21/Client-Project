@@ -51,7 +51,7 @@ header nav a:hover {
 
 .mainimg img {
     width: 100%; /* Makes the image stretch to the width of its container */
-    height: 35rem; /* Maintains the image's aspect ratio */
+    height: 12rem; /* Maintains the image's aspect ratio */
     display: block; /* Eliminates any space below the image */
     margin-top: -5rem;
 }
