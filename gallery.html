@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBrothers-Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" >
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" >
+    <link rel="shortcut icon" href="images/favicon.ico" >
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" >
+    <meta name="apple-mobile-web-app-title" content="Jbrothers" >
+    <link rel="manifest" href="images/site.webmanifest" >
+</head>
+<body>
+    <header>
+        <img src="images/JbrothersSVGHeader.svg" alt="Jbrothers Logo">
+        
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="contact.html" >Contact</a>
+            <a href="gallery.html" >Gallery</a>
+            <a href="careers.html" >Careers</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="mainimggallery">
+            <img src="images/GalleryBackground.jpg" alt="Picture of three trucks">
+
+        </div>
+        
+        <section class="fleet">
+            <div class="ourfleetslideshow">
+                <h2>Our Fleet</h2>
+                <div class="slideshow-container" id="fleet-slideshow">
+                    <div class="slides">
+                        <img src="images/3TrucksParking.jpg" alt="Slide 1" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/RedWithTanker.jpg" alt="Slide 2" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/Grizzly.jpg" alt="Slide 3" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/2trucks.jpg" alt="Slide 4" class="slide-image">
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <a class="prev" onclick="changeSlide(-1, 'fleet')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'fleet')">&#10095;</a>
+                </div>
+                <div class="dots-container" id="fleet-dots">
+                    <span class="dot" onclick="showSlide(0, 'fleet')"></span>
+                    <span class="dot" onclick="showSlide(1, 'fleet')"></span>
+                    <span class="dot" onclick="showSlide(2, 'fleet')"></span>
+                    <span class="dot" onclick="showSlide(3, 'fleet')"></span>
+                </div>
+            </div>
+        </section>
+    
+        <section class="cargo">
+            <div class="ourcargoslideshow">
+                <h2>Cargo and Scenery</h2>
+                <div class="slideshow-container" id="cargo-slideshow">
+                    <div class="slides">
+                        <img src="images/BlueCoolBackground.jpg" alt="Slide 1" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/BlueWith3Loads.jpg" alt="Slide 2" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/TarpingRed.jpg" alt="Slide 3" class="slide-image">
+                    </div>
+                    <div class="slides">
+                        <img src="images/TarpingGrizzly.jpg" alt="Slide 4" class="slide-image">
+                    </div>
+                    <!-- Navigation Arrows -->
+                    <a class="prev" onclick="changeSlide(-1, 'cargo')">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1, 'cargo')">&#10095;</a>
+                </div>
+                <div class="dots-container" id="cargo-dots">
+                    <span class="dot" onclick="showSlide(0, 'cargo')"></span>
+                    <span class="dot" onclick="showSlide(1, 'cargo')"></span>
+                    <span class="dot" onclick="showSlide(2, 'cargo')"></span>
+                    <span class="dot" onclick="showSlide(3, 'cargo')"></span>
+                </div>
+            </div>
+        </section>
+    
+        <script src="script.js"></script>
+    </main>
+
+    <footer>
+ <div id="mainoffice">
+            <!-- Main Office Section -->
+            <h3>Main Office</h3>
+            <p>N11216 S Alma Center Rd <br>Alma Center, WI 54611</p>
+            <a href="https://www.google.com/maps/place/N11216+Alma+Center+Rd,+Alma+Center,+WI+54611/@44.4790985,-90.9160085,17z/data=!3m1!4b1!4m6!3m5!1s0x87ff220511e2aeff:0x34df681bd81c47e6!8m2!3d44.4790985!4d-90.9134336!16s%2Fg%2F11f66sk0dv?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                Get Directions
+                <img src="images/LocationIcon.svg" alt="LocationIcon">
+            </a>
+        </div>
+    
+        <div id="secondaryoffice">
+            <!-- Secondary Office Section -->
+            <h3>Secondary Office</h3>
+            <p>101 N Main St.<br>Merrillan, WI 54754</p>
+            <a href="https://www.google.com/maps/place/101+N+Main+St,+Merrillan,+WI+54754/@44.4514882,-90.8435988,17z/data=!3m1!4b1!4m6!3m5!1s0x87ff1e97b69b36a7:0x5d2cba922e819f73!8m2!3d44.4514882!4d-90.8410239!16s%2Fg%2F11b8ynmf2j?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                Get Directions
+                <img src="images/LocationIcon.svg" alt="LocationIcon">
+            </a>
+        </div>
+    
+        <div id="contactus">
+            <!-- Contact Us Section -->
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Guillermo Jaime (715) 670-1028</li>
+                <li>Office Phone: (715) 896-7768</li>
+                <li>Jbrothers Fax: (715) 227-8752</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
