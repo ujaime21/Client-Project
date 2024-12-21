@@ -699,6 +699,7 @@ ul li {
         justify-content: center;
         padding-bottom: 1rem;
         gap: 2px;
+        background-color: #890004;
     }
 
     header img {
@@ -817,6 +818,10 @@ ul li {
         text-align: center; 
     }
 
+    .contactform button {
+        width: unset ;
+    }
+
     .whyus img {
         max-width: 80%; 
         height: auto; 
@@ -829,7 +834,8 @@ ul li {
     }
 
     .mainimgcontact img {
-        height: 15rem;
+        height: 8rem;
+        margin-top: 9rem;
     }
 
     .introcontact {
@@ -899,7 +905,7 @@ ul li {
 
     .mainimg img {
         height: 10rem;
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
     
     .owneroperators, .newdrivers, .onlinetraining {
