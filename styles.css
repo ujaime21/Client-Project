@@ -698,6 +698,7 @@ ul li {
         flex-wrap: wrap;
         justify-content: center;
         padding-bottom: 1rem;
+        gap: 2px;
     }
 
     header img {
@@ -743,7 +744,7 @@ ul li {
     }
 
     footer h3 {
-        font-size: 1.25rem;
+        font-size: 13px;
     }
 
     .intro p {
@@ -753,19 +754,24 @@ ul li {
     }
 
     footer p{
-        font-size:11px ;
+        font-size: 10px ;
     }
 
     footer ul li {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     footer a {
-        font-size: 1rem;
+        font-size: 12px;
     }
 
     footer img {
         width: 1rem;
+    }
+
+    footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .mainimgabout img {
@@ -888,7 +894,14 @@ ul li {
     .mainimgcareers img {
         margin-top: 5rem;
         height: 10rem;
+
     }
+
+    .mainimg img {
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    
     .owneroperators, .newdrivers, .onlinetraining {
         display: flex;
         flex-direction: column; 
