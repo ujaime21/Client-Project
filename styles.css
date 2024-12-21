@@ -755,11 +755,11 @@ ul li {
     }
 
     footer p{
-        font-size: 10px ;
+        font-size: 9px ;
     }
 
     footer ul li {
-        font-size: 10px;
+        font-size: 19px;
     }
 
     footer a {
@@ -774,11 +774,18 @@ ul li {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .Introtext {
+        margin: unset;
+    }
+
+    .intro {
+        padding: unset;
+    }
 
     .mainimgabout img {
         max-width: 100%;
-        height: 15rem;
-        margin-top: 5rem;
+        height: 11rem;
+        margin-top: 9rem;
     }
 
     #ourstory p, #goal p {
@@ -894,11 +901,11 @@ ul li {
 
     .mainimggallery img {
         height: 10rem;
-        margin-top: 5rem;
+        margin-top: 9rem;
     }
 
     .mainimgcareers img {
-        margin-top: 5rem;
+        margin-top: 9rem;
         height: 10rem;
 
     }
