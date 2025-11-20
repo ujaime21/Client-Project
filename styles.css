@@ -177,7 +177,7 @@ h3 {
 }
 
 ul {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 ul li {
@@ -290,7 +290,7 @@ ul li {
 
 .mainimgcontact img {
     width: 100%; /* Makes the image stretch to the width of its container */
-    height: 25rem; /* Maintains the image's aspect ratio */
+    height: 35rem; /* Maintains the image's aspect ratio */
     display: block; 
 }
 
@@ -565,14 +565,14 @@ ul li {
     display: flex;
     justify-content: space-around; /* Aligns divs side by side */
     flex-wrap: wrap; /* Allows wrapping on smaller screens */
-    margin: 2rem 0;
+    margin: 2rem 0rem 3rem 0rem;
     width: 100%;
 }
 
 .contactinfo div {
     text-align: center;
     max-width: 300px;
-    margin: 1rem;
+    margin: 1rem -3rem 1rem 1rem;
     padding: 1rem;
     background-color: #f8f8f8;
     border-radius: 8px;
@@ -595,7 +595,7 @@ ul li {
 /* Contact Form */
 .contactform {
     width: 60%;
-    margin: 2rem auto;
+    margin: 0 auto;
     background-color: #f8f8f8;
     padding: 2rem;
     border-radius: 8px;
@@ -681,6 +681,38 @@ ul li {
     border: 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Facebook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Facebook img {
+    max-width: 9rem;
+    margin: 1rem 1rem 0rem 1rem;
+    display: block;
+    height: auto;
+}
+
+#Facebook h3 {
+    font-size: 1.5rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+#Facebook a {
+    text-decoration: none;
+    color: #890004;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+#Facebook a:hover {
+    color: rgb(50, 73, 205);
+    text-decoration: underline;
 }
 
 
