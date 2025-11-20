@@ -890,6 +890,22 @@ ul li {
     .contactinfo h3 {
         font-size: 1.5rem;
     } 
+    
+    .contactinfo {
+        display: flex;
+        flex-direction: column; /* stack items */
+        align-items: center;    /* center horizontally */
+        text-align: center;     /* center text */
+        gap: 1.5rem;     
+        margin: 1rem 0rem 1rem -2rem;       /* spacing between boxes */
+    }
+
+    .contactinfo > div {
+        width: 100%;
+        max-width: 300px;       /* keeps boxes from stretching too wide */
+    }
+
+
 
     .maps {
         display: flex;
